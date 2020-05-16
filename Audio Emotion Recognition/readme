@@ -1,1 +1,14 @@
+1.To extract audio features and save them as pickle file:
+run open_DATASET_folder.py where DATASET is the name of the dataset which you wish to train
+
+2. To fetch the pickle files and train:
+run fetch_data_model.py as follows:
+$python fetch_data_model.py NUMBER_CODE
+where
+NUMBER_CODE=6 for enterface
+NUMBER_CODE=7 for SAVEE
+NUMBER_CODE=8 for RAVDESS
+NUMBER_CODE=any other number for all the dataset features
+
+
 
